@@ -6,13 +6,13 @@ import {
 } from '@mui/material';
 import { AirtableIntegration } from './integrations/airtable';
 import { NotionIntegration } from './integrations/notion';
-import HubspotIntegration from './integrations/hubspot';
+import { HubSpotIntegration } from './integrations/hubspot';
 import { DataForm } from './data-form';
 
 const integrationMapping = {
     'Notion': NotionIntegration,
     'Airtable': AirtableIntegration,
-    'Hubspot': HubspotIntegration,
+    'HubSpot': HubSpotIntegration,
 };
 
 export const IntegrationForm = () => {
@@ -51,7 +51,10 @@ export const IntegrationForm = () => {
         </Box>
         }
         {integrationParams?.credentials && 
-        <Box sx={{mt: 2}}>
+        <Box sx={{
+            mt: 2,
+            width: '100%',
+            }}>
             <DataForm integrationType={integrationParams?.type} credentials={integrationParams?.credentials} />
         </Box>
         }

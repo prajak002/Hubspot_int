@@ -1,0 +1,16 @@
+{
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "window.zoomLevel": 0.5,
+  "editor.fontFamily": "'JetBrains Mono','Segoe UI', 'Waree', 'Arial', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 23,
+  "files.autoSave": "afterDelay",
+  "diffEditor.wordWrap": "off",
+  "prettier.vueIndentScriptAndStyle": false,
+  "prettier.useTabs": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 32,
+  "editor.fontWeight": "800",
+  "editor.tabSize": 4,
+  "editor.renderWhitespace": "none",
+  "editor.cursorWidth": 3,
+}
