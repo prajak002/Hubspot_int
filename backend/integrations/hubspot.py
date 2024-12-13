@@ -14,8 +14,8 @@ from integrations.integration_item import IntegrationItem
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
 
-CLIENT_ID = '9cfb624d-e3af-4dfa-8ac3-311f3b65718a'
-CLIENT_SECRET = 'd8a7c939-c249-4921-86c9-8d6b70530610'
+CLIENT_ID='af005d38-f725-42ec-b18c-c56055c86064'
+CLIENT_SECRET='1ed39b9d-7a97-4aac-89af-b6a53fd2a346'
 encoded_client_id_secret = base64.b64encode(f'{CLIENT_ID}:{CLIENT_SECRET}'.encode()).decode()
 
 REDIRECT_URI = 'http://localhost:8000/integrations/hubspot/oauth2callback'
